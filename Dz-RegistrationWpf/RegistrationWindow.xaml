@@ -1,0 +1,23 @@
+﻿<Window x:Class="Dz_RegistrationWpf.RegistrationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dz_RegistrationWpf"
+        mc:Ignorable="d"
+        Title="RegistrationWindow" Name="registrationWindow" Height="400" Width="300">
+    <Grid>
+        <Button x:Name="upLoadImageButton" Content="Загрзуить фото" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120" Click="UpLoadImageButtonClick"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,35,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top"/>
+        <TextBox x:Name="loginTextBox" HorizontalAlignment="Left" Height="23" Margin="10,56,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,84,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top"/>
+        <TextBox x:Name="passwordTextBox" HorizontalAlignment="Left" Height="23" Margin="10,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,133,0,0" TextWrapping="Wrap" Text="Повторите пароль" VerticalAlignment="Top"/>
+        <TextBox x:Name="repeatPasswordTextBox" HorizontalAlignment="Left" Height="23" Margin="10,154,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,182,0,0" TextWrapping="Wrap" Text="E-mail" VerticalAlignment="Top"/>
+        <TextBox x:Name="emailTextBox" HorizontalAlignment="Left" Height="23" Margin="10,203,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,231,0,0" TextWrapping="Wrap" Text="О себе" VerticalAlignment="Top"/>
+        <TextBox x:Name="aboutMeTextBox" HorizontalAlignment="Left" Height="57" Margin="10,252,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="registerButton" Content="Зарегистрироваться" HorizontalAlignment="Left" VerticalAlignment="Top" Width="272" Margin="10,339,0,0" Click="RegisterButtonClick"/>
+    </Grid>
+</Window>
